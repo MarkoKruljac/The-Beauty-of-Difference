@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/popupStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Beauty of Difference</title>
+</head>
+<body>
+    <script src="popup.js"></script>
+
+    <!-- Navbar --> 
+    <div class="navbar">
+        <div class="container flex">
+            <a href="aboutUs.html" class="logo"><img src="images/img-logo.png" alt="Restoran internacionalne kuhinje" style="width:75px; height:75px"  ></a>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="aboutUs.html">O nama</a></li>
+                    <li><a href="reservation.html">Rezervacija</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>THE BEAUTY OF DIFFERENCE</h1>
+            <h2>RESTORAN INTERNACIONALNE KUHINJE</h2>
+        </div>
+        <div class="container-grid">
+            <div>
+                <button class="hero-btn" onclick="document.location='reservation.html'"> REZERVIRAJ </button>
+            </div>
+            <div>
+                <div class="popup" id="popup-6">
+                    <div class="overlay"></div>
+                    <div class="content">
+                      <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                      <div>
+                          <h3> JESTE LI ZNALI? </h3>
+                      </div>
+                      <div>
+                        <p> restoran The Beauty of Difference 
+                            jest prvi restoran u Hrvatskoj koji je ukomponirao hranu 
+                            azijskih kultura u svoju ponudu.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                <button onclick="togglePopup6()" class="hero-inf-btn"> <i class="fa fa-info-circle"></i> </button>
+            </div>
+            <div>
+                <button onclick="document.location='delivery.html'" class="hero-btn" > NARUČI </button>
+            </div>
+        </div>
+        <div class="hero-text ab">
+            <p>POŠTOVANI GOSTI, OBAVIJEŠTAVAMO VAS DA REZERVACIJA STOLA NIJE MOGUĆE OSTVARITI </p>
+            <p>ALI ZATO ISKORISTITE <b> DOSTAVU </b>  NAŠEG RESTORANA!</p>  
+        </div>
+     </section>
+     <!-- Cards -->
+
+     <section  class="cards">
+        <h2> U našem restoranu očekuju vas kuhinje azijskih kultura </h2>
+        <div class="kitchens" >
+            <div id="cardsIndGO">
+                <button onclick="document.location='indianKitchen.html'" class="img-kitchens"><img src="images/indianFood1.jpeg" alt="Indijska Kuhinja" style="border:1px #086788 solid;">
+                <h3>INDIJSKA KUHINJA</h3>
+                </button>  
+            </div>
+            <div id="cardsChiGO">
+                <button onclick="document.location='chineseKitchen.html'" class="img-kitchens"><img src="images/chineseFood1.jpeg" alt="Kineska Kuhinja" style="border:1px #086788 solid;">
+                <h3>KINESKA KUHINJA</h3>
+                </button>  
+            </div>
+            <div id="cardsKorGO">
+                <button onclick="document.location='koreanKitchen.html'" class="img-kitchens"><img src="images/koreanFood1.jpeg" alt="Korenska Kuhinja" style="border:1px #086788 solid;">
+                <h3>KOREANSKA KUHINJA</h3>
+                </button>  
+            </div>
+            <div id="cardsThaGO">
+                <button onclick="document.location='thaiKitchen.html'" class="img-kitchens"><img src="images/thaiFood1.jpg" alt="Tajlandska Kuhinja" style="border:1px #086788 solid;">
+                <h3>TAJLANDSKA KUHINJA</h3>
+                </button>  
+            </div>
+        </div>
+     </section>
+
+     <section id="footerGo">
+         <footer class="footer">
+            <div>
+                <h3>Radno vrijeme </h3>
+                <p> <b>Pon-Sub</b>: 12:00h - 00:00h</p>
+                <p> <b>Ned</b>: 12:00h - 22:00h</p>
+            </div>
+            <div>
+                <h3> Zagreb </h3>
+                <p><b>Gurmanska ulica</b>, 10000 Zagreb, Hrvatska</p>
+                <p><b>Tel-broj</b>: +385 1 0001 0001</p>
+                <p><b>E-mail</b>: international.restaurant@mail.hr</p>
+            </div>
+            <div>
+                <h3> Pratite nas </h3>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook" style="font-size: 2.4em;"></a></li>
+                    <li><a href="#" class="fa fa-instagram" style="font-size: 2.4em;"></a></li>
+                </ul>
+            </div>
+        </footer>
+     </section>
+</body>
+</html>

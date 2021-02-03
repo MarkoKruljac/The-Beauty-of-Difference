@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+@im ort url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -620,5 +620,9 @@ p {
 
   .reservation-section {
     height: auto;
+  }
+
+  .c-i-a{
+    width: auto;
   }
 }

@@ -26,8 +26,8 @@
     left:50%;
     transform:translate(-50%,-50%) scale(0);
     background:#F2F4F3;
-    width:500px;
-    height:300px;
+    width:auto;
+    height:auto;
     z-index:2;
     text-align:center;
     padding:20px;
@@ -71,12 +71,20 @@
   }
   
   .reservation-para{
+    padding-top: 50px;
     text-transform: uppercase;
     color: #086788;
     font-size: 28px;
     text-align: center;
-    padding-top: 75px;
   }
+
+  @media (max-width: 1050px) {
+    .popup {
+      width: auto;
+    }
+
+  }
+  
 
 
 
